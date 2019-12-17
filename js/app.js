@@ -9,7 +9,7 @@ $('document').ready(function(){
   }
   Story.prototype.render = function (){
     let wholeStory = $(`
-    <div class="">
+    <div>
       <h2></h2>
       <img/>
       <p></p>
@@ -22,10 +22,6 @@ $('document').ready(function(){
     wholeStory.addClass(this.keyword);
     // wholeStory.find('p').text(this.keyword);
     // wholeStory.find('p').text(this.horns);
-
-
-
-
     $('#photo-template').append(wholeStory);
   }
 
