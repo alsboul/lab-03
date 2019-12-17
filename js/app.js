@@ -37,10 +37,10 @@ $('document').ready(function(){
         story.render();
         // if the keyword in the list, skip
         // else add it
-        // IF you use an array: 
+        // IF you use an array:
         if (!seen[element.keyword] ){
           $('#choose').append(`<option value='${element.keyword}'>` + element.keyword + '</option>' );
-          seen[element.keyword]=true;
+          seen[element.keyword] = true;
         }
       });
     });
