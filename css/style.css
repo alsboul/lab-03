@@ -1,0 +1,10 @@
+img {
+    height: 250px;
+    width: 250px;
+}
+div{
+    float: left;
+}
+footer{
+    clear: both;
+}
